@@ -1,0 +1,13 @@
+.DS_Store
+dump.rdb
+target
+.settings
+.classpath
+.project
+.idea
+*.iml
+logs
+*.swo
+*.swp
+*.factorypath
+**/.apt_generated/

@@ -1,0 +1,9 @@
+server.port: 9999
+spring.application.name: ConfigClient
+spring:
+  cloud:
+    config:
+      uri: 'http://localhost:8080'
+      name: client
+      profile: test
+      label: native

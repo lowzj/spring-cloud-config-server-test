@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ConfigServer
+  cloud:
+    config:
+      overrideSystemProperties: false
+      allowOverride: true
+      overrideNone: true
+      server:
+        native:
+          searchLocations: configuration/configs/
+  profiles:
+     active: native
+
